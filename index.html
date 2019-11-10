@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <meta name="keywords" content="">
+      <title>Site</title>
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/media.css">
+      <link rel="stylesheet" href="css/reset.css">
+      <link rel="stylesheet" href="css/fonts.css">
+      <link rel="stylesheet" href="css/slick-theme.css">
+      <link rel="stylesheet" href="css/slick.css">
+      <link rel="stylesheet" href="css/font-awesome.min.css">
+      <link rel="stylesheet" href="css/jquery.arcticmodal-0.3.css">
+      <link rel="stylesheet" href="css/slider-ui.css">
+      <link rel="shortcut icon" href="" type="image/x-icon">
+      <link rel="stylesheet" href="css/font-awesome.min.css">
+      <script src="js/jquery-1.9.1.min.js"></script>
+      <script src="js/main.js"></script>
+      <script src="js/ui-slider.js"></script>
+      <script src="js/tabs_localStorage.js"></script>
+      <script src="js/slick.min.js"></script>
+      <script src="js/jquery.sticky.js"></script>
+      <script src="js/jquery.maskedinput.min.js"></script>
+      <script src="js/jquery.validate.min.js"></script>
+      <!--[if lt IE 9]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+</head>
+<body>
+      <header class="header" style="">
+            <div class="container">
+                  <div class="header__wrap">
+                        <div class="logo header__logo">
+                              <a href="/" class="logo__link">
+                                    <img src="images/logo.png" alt="Title company" class="logo__image">
+                              </a>
+                        </div>
+                  </div>
+
+                  <div class="header__btn btn-toggle">
+                        <div class="btn-toggle__line"></div>
+                  </div>
+
+                  <div class="header__mobile-menu">
+                        <a href="/" class="header__mobile-logo">
+                              <img src="images/logo.png" alt="Title company" class="header__mobile-image">
+                        </a>
+                        <a href="tel:+38 (096) 161-77-77" class="header__mobile-number">
+                              +38 (096) 161-77-77 
+                        </a>
+                  </div>
+            </div>
+      </header>
+      <main>
+            <section class="buying">
+                  <div class="buying-bg"></div>
+                  <div class="container">
+                        <div class="buying__title-wrap">
+                              <h1 class="buying__subtitle">Заказ бетона</h1>
+                              <h2 class="buying__title">Доставляем от 1<span class="buying__title-number">м</span><sup>3</sup></h2>
+                        </div>
+                        <div class="buying__wrap">
+                              <div class="buying__image">
+                                    <img class="buying__img" src="images/beton-5.png" alt="">
+                              </div>
+                              <div class="buying__right">
+                                    <div class="buying__box">
+                                          <div class="buying__advantages">
+                                                <div class="buying__block adv-block">
+                                                      Огромный<br> выбор
+                                                </div>
+                                                <div class="buying__block adv-block">Всегда<br> в наличии</div>
+                                                <div class="buying__block adv-block">Звоните<br> прямо<br> сейчас!</div>
+                                          </div>
+                                          <form action="/" id="form1" class="buying__form form-order" novalidate="novalidate">
+                                                <div class="form-order__block">
+                                                      <label class="form-order__label">Ваше имя*</label>
+                                                      <input type="text" name="name" class="form-order__input" placeholder="yourmail">
+                                                </div>
+                                                <div class="form-order__block">
+                                                      <label class="form-order__label">Телефон*</label>
+                                                      <input type="text" name="number" class="form-order__input form-order__input--phone mask" placeholder="+380 -- --- -- --">
+                                                </div>
+                                                <input type="hidden" name="formData" value="Заявка">
+                                                <div class="form-order__button-wrap">
+                                                      <input type="submit" class="form-order__button btn" value="Узнать цену">
+                                                </div>
+                                          </form>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="buying__icon"></div>
+                  </div>
+            </section>
+            <section id="contracting" class="contracting">
+                  <div class="container">
+                        <div class="contracting-box contracting__box">
+                              <div class="contracting-box__item">
+                                    <div class="contracting-box__img-box">
+                                          <img src="images/oper.png" alt="" class="contracting-box__img">
+                                    </div>
+                                    <div class="contracting-box__wrap">
+                                          <p class="contracting-box__text">
+                                                Быстрая доставка (до 2-4 часов)
+                                          </p>
+                                    </div>
+                              </div>
+                              <div class="contracting-box__item">
+                                    <div class="contracting-box__img-box">
+                                          <img src="images/247.png" alt="" class="contracting-box__img">
+                                    </div>
+                                    <div class="contracting-box__wrap">
+                                          <p class="contracting-box__text">
+                                                Работаем круглосуточно!
+                                          </p>
+                                    </div>
+                              </div>
+                              <div class="contracting-box__item">
+                                    <div class="contracting-box__img-box">
+                                          <img src="images/price.png" alt="" class="contracting-box__img">
+                                    </div>
+                                    <div class="contracting-box__wrap">
+                                          <p class="contracting-box__text">
+                                                Самая<br> низкая цена
+                                          </p>
+                                    </div>
+                              </div>
+                              <div class="contracting-box__item">
+                                    <div class="contracting-box__img-box">
+                                          <img src="images/certificate.png" alt="" class="contracting-box__img">
+                                    </div>
+                                    <div class="contracting-box__wrap">
+                                          <p class="contracting-box__text">
+                                                Вся продукция сертифицирована
+                                          </p>
+                                    </div>
+                              </div>
+                              <div class="contracting-box__item">
+                                    <div class="contracting-box__img-box">
+                                          <img src="images/paym.png" alt="" class="contracting-box__img">
+                                    </div>
+                                    <div class="contracting-box__wrap">
+                                          <p class="contracting-box__text">
+                                                Любая форма оплаты
+                                          </p>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </section>
+            <section class="mark">
+                  <div class="container">
+                        <h2 class="title title--white">Выберите марку бетона</h2>
+                        <form method="post" id="form2" class="mark__form">
+                              <div class="mark__row">
+                                    <div class="mark__block select-block">
+                                          <div class="select-block__description">
+                                                Марка бетона обозначает (усредненно) предел прочности на сжатие в кгс/см3. Чем выше прочность, тем лучше качество бетона
+                                          </div>
+                                          <select name="mark" class="select-block__select select">
+                                                <option value="hide" class="select__option">Марка бетона (H)</option>
+                                                <option value="1" class="select__option">1</option>
+                                                <option value="2" class="select__option">2</option>
+                                                <option value="3" class="select__option">3</option>
+                                          </select>
+                                    </div>
+                                    <div class="mark__block select-block">
+                                          <div class="select-block__description">
+                                                Класс бетона. Класс гарантированной прочности
+                                          </div>
+                                          <select name="mark2" class="select-block__select select">
+                                                <option value="hide" class="select__option">Марка бетона (B)</option>
+                                                <option value="1" class="select__option">1</option>
+                                                <option value="2" class="select__option">2</option>
+                                                <option value="3" class="select__option">3</option>
+                                          </select>
+                                    </div>
+                                    <div class="mark__block select-block">
+                                          <div class="select-block__description">
+                                                Подвижность - марктровка по удобству укладки бетонной смеси, рассчитывается по усадке конуса
+                                          </div>
+                                          <select name="mark3" class="select-block__select select">
+                                                <option value="hide" class="select__option">Подвижность (П)</option>
+                                                <option value="1" class="select__option">1</option>
+                                                <option value="2" class="select__option">2</option>
+                                                <option value="3" class="select__option">3</option>
+                                          </select>
+                                    </div>
+                              </div>
+                              <div class="mark__row">
+                                    <div class="mark__block select-block">
+                                          <div class="select-block__description">
+                                                Показатели морозостойкости бетона отражают количество циклов змерзания/оттаивания, выдерживаемые бетоном (от 25 до 1000)
+                                          </div>
+                                          <select name="mark4" class="select-block__select select">
+                                                <option value="hide" class="select__option">Морозостойкость (М)</option>
+                                                <option value="1" class="select__option">1</option>
+                                                <option value="2" class="select__option">2</option>
+                                                <option value="3" class="select__option">3</option>
+                                          </select>
+                                    </div>
+                                    <div class="mark__block select-block">
+                                          <div class="select-block__description">
+                                                Споссобность бетона не пропускать воду под давлением
+                                          </div>
+                                          <select name="mark5" class="select-block__select select">
+                                                <option value="hide" class="select__option">Водонепроницаемость (W)</option>
+                                                <option value="1" class="select__option">1</option>
+                                                <option value="2" class="select__option">2</option>
+                                                <option value="3" class="select__option">3</option>
+                                          </select>
+                                    </div>
+                                    <div class="select-block__btn-wrap">
+                                          <input type="submit" class="select-block__btn btn" value="Получить индивидуальную цену">
+                                    </div>
+                              </div>
+                        </form>
+                  </div>
+            </section>
+            <section class="free">
+                  <div class="container">
+                        <h2 class="title free__title title--white">Получите доставку + бетононасос <span class="free__title--color">бесплатно!</span></h2>
+                        <div class="free__wrap">
+                              <div class="free__row">
+                                    <img src="images/free.png" alt="" class="free__image">
+                              </div>
+                              <div class="free__icon">+</div>
+                              <div class="free__row">
+                                    <img src="images/free-2.png" alt="" class="free__image">
+                              </div>
+                        </div>
+                        <div class="free__btn-wrap">
+                              <div class="free__btn btn">Получить</div>
+                        </div>
+                  </div>
+            </section>
+            <section id="competition" class="competition">
+                  <div class="container">
+                        <h2 class="title competition__title title--black">Вне конкуренции</h2>
+                        <div class="competition__wrap">
+                              <div class="competition__item">
+                                    <div class="competition__img-box">
+                                          <img src="images/drivers.png" alt="" class="competition__image">
+                                    </div>
+                                    <div class="competition__subtitle">Лучшие водители</div>
+                                    <div class="competition__text">
+                                          Профессионализм наших водителей поможет Вам сэкономить время и деньги
+                                    </div>
+                              </div>
+                              <div class="competition__item">
+                                    <div class="competition__img-box">
+                                          <img src="images/truck.png" alt="" class="competition__image">
+                                    </div>
+                                    <div class="competition__subtitle">Личный автопарк</div>
+                                    <div class="competition__text">
+                                          Мы не работаем с сомнительными подрядчиками
+                                    </div>
+                              </div>
+                              <div class="competition__item">
+                                    <div class="competition__img-box">
+                                          <img src="images/any-volume.png" alt="" class="competition__image">
+                                    </div>
+                                    <div class="competition__subtitle">Любой объем</div>
+                                    <div class="competition__text">
+                                          Мы в состоянии обработать заказ на любое количество бетона
+                                    </div>
+                              </div>
+                              <div class="competition__item">
+                                    <div class="competition__img-box">
+                                          <img src="images/laboratory.png" alt="" class="competition__image">
+                                    </div>
+                                    <div class="competition__subtitle">Выездная лаборатория</div>
+                                    <div class="competition__text">
+                                          Обмеряет кубатуру и проверяет качество строительных смесей
+                                    </div>
+                              </div>
+                              <div class="competition__item">
+                                    <div class="competition__img-box">
+                                          <img src="images/market.png" alt="" class="competition__image">
+                                    </div>
+                                    <div class="competition__subtitle">Более 10 лет на рынке</div>
+                                    <div class="competition__text">
+                                          Наша компания успела зарекомендовать себя, как надежного поставщика
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </section>
+            <section class="information">
+                  <div class="information__bg"></div>
+                  <div class="container">
+                        <div class="information__wrap">
+                              <div class="information__bar">
+                                    <div class="info-video information__video">
+                                          <iframe class="info-video__iframe" src="https://www.youtube.com/embed/3jT_q7dt-cM" frameborder="0" allowfullscreen=""></iframe>
+                                    </div>
+                                    <div class="info-box info__box-block">
+                                          <div class="info-box__row">
+                                                <div class="info-box__wrap">
+                                                      <div class="info-box__image">
+                                                            <img src="images/year.png" alt="">
+                                                      </div>
+                                                      <div class="info-box__number">
+                                                            25 245
+                                                      </div>
+                                                </div>
+                                                <span class="info-box__description">
+                                                      М<sup class="info-box__num">3</sup> бетона доставлено с 2012 года
+                                                </span>
+                                          </div>
+                                          <div class="info-box__row">
+                                                <div class="info-box__wrap">
+                                                      <div class="info-box__image">
+                                                            <img src="images/ship.png" alt="">
+                                                      </div>
+                                                      <div class="info-box__number">
+                                                            16
+                                                      </div>
+                                                </div>
+                                                <span class="info-box__description">
+                                                      единиц техники в автопарке
+                                                </span>
+                                          </div>
+                                    </div>
+                                    <div class="info-box info__box-block">
+                                          <div class="info-box__row">
+                                                <div class="info-box__wrap">
+                                                      <div class="info-box__image">
+                                                            <img src="images/property.png" alt="">
+                                                      </div>
+                                                      <div class="info-box__number">
+                                                            542
+                                                      </div>
+                                                </div>
+                                                <span class="info-box__description">
+                                                      объекта обслужено
+                                                </span>
+                                          </div>
+                                          <div class="info-box__row">
+                                                <div class="info-box__wrap">
+                                                      <div class="info-box__image">
+                                                            <img src="images/hospital.png" alt="">
+                                                      </div>
+                                                      <div class="info-box__number">
+                                                            34
+                                                      </div>
+                                                </div>
+                                                <span class="info-box__description">
+                                                      завода-производителя бетона
+                                                </span>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </section>
+            <section class="why">
+                  <div class="container">
+                        <h2 class="title title--white">Почему именно наш бетон</h2>
+                        <div class="why__wrap">
+                              <div class="why__row">
+                                    <div class="why__subtitle">Обычный бетон</div>
+                                    <img src="images/default-beton.png" alt="Обычный бетон" class="why__image">
+                              </div>
+                              <div class="why__row why__row--between">
+                                    <div class="why__logo">
+                                          <img src="images/logo.png" alt="">
+                                    </div>
+                                    <img src="images/company-beton.png" alt="Бетон компании" class="why__image">
+                                    <div class="why__btn btn">Заказать</div>
+                              </div>
+                        </div>
+                  </div>
+            </section>
+            <section class="delivery">
+                  <div class="container">
+                        <h2 class="title title--orange">Спецтехника для доставки и перекачки бетона</h2>
+                        <div class="delivery__wrap">
+                              <div class="slider">
+                                    <div class="slider__item">
+                                          <img src="images/slider.png" alt="" class="slider__image">
+                                          <div class="slider__text">Автобетононасос, стрела 50м., описание, тех характеристики<br> 
+                                          Вторая строка, если нужно, макс</div>
+                                    </div>
+                                    <div class="slider__item">
+                                          <img src="images/slider.png" alt="" class="slider__image">
+                                          <div class="slider__text">Автобетононасос, стрела 50м., описание, тех характеристики<br> 
+                                          Вторая строка, если нужно, макс</div>
+                                    </div>
+                                    <div class="slider__item">
+                                          <img src="images/slider.png" alt="" class="slider__image">
+                                          <div class="slider__text">Автобетононасос, стрела 50м., описание, тех характеристики<br> 
+                                          Вторая строка, если нужно, макс</div>
+                                    </div>
+                              </div>
+                              <div class="slider-nav"></div>
+                        </div>
+                  </div>
+            </section>
+            <section class="benefit">
+                  <div class="container">
+                        <h2 class="benefit__title title title--black">Узнайте свою скидку</h2>
+                        <div class="benefit__wrap">
+                              <div class="benefit__image">
+                                    <img src="images/beton-5.png" alt="">
+                              </div>
+                              <div class="benefit__pricing">
+                                    <div class="benefit_desc">Ваша скидка</div>
+                                    <div class="benefit__sale">5%</div>
+                              </div>
+                              <div class="benefit__box">
+                                    <div class="benefit__slider-desc">Объем (м<sup class="benefit__slider-number">3</sup>)</div>
+                                    <div id="slider" class="benefit__slider calculator"></div>
+                                    <div class="benefit__btn-wrap">
+                                          <div class="benefit__btn">Заказать выгодно</div>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </section>
+            <section class="objects" id="objects">
+                  <div class="objects__bg"></div>
+                  <div class="container">
+                        <div class="objects__wrap">
+                              <h1 class="title objects__title title--white">Десятки завершенных объектов</h1>
+                        </div>
+                        <div class="objects__slider">
+                              <div class="objects__item">
+                                    <img src="images/object.png" alt="" class="objects__image">
+                                    <div class="objects__subtitle">ЖК «Покровский»</div>
+                                    <div class="objects__text">
+                                          Тут описание объекта, выполненные задачи, предоставленная техника, объемы бетона итд
+                                    </div>
+                                    <div class="objects__info">
+                                          <div class="objects__box">
+                                                <div class="objects__img">
+                                                      <img src="images/measuring-cup.png" alt="">
+                                                </div>
+                                                <div class="objects__number">120 м<sup class="objects__num">3</sup></div>
+                                          </div>
+                                          <div class="objects__box">
+                                                <div class="objects__img">
+                                                      <img src="images/win.png" alt="">
+                                                </div>
+                                                <div class="objects__number">12 дней</div>
+                                          </div>
+                                    </div>
+                              </div>
+                               <div class="objects__item">
+                                    <img src="images/object-2.png" alt="" class="objects__image">
+                                    <div class="objects__subtitle">ЖК «Район 2»</div>
+                                    <div class="objects__text">
+                                          Тут описание объекта, выполненные задачи, предоставленная техника, объемы бетона итд
+                                    </div>
+                                    <div class="objects__info">
+                                          <div class="objects__box">
+                                                <div class="objects__img">
+                                                      <img src="images/measuring-cup.png" alt="">
+                                                </div>
+                                                <div class="objects__number">120 м<sup class="objects__num">3</sup></div>
+                                          </div>
+                                          <div class="objects__box">
+                                                <div class="objects__img">
+                                                      <img src="images/win.png" alt="">
+                                                </div>
+                                                <div class="objects__number">12 дней</div>
+                                          </div>
+                                    </div>
+                              </div>
+                               <div class="objects__item">
+                                    <img src="images/object-3.png" alt="" class="objects__image">
+                                    <div class="objects__subtitle">Товарная, Печерск</div>
+                                    <div class="objects__text">
+                                          Тут описание объекта, выполненные задачи, предоставленная техника, объемы бетона итд
+                                    </div>
+                                    <div class="objects__info">
+                                          <div class="objects__box">
+                                                <div class="objects__img">
+                                                      <img src="images/measuring-cup.png" alt="">
+                                                </div>
+                                                <div class="objects__number">120 м<sup class="objects__num">3</sup></div>
+                                          </div>
+                                          <div class="objects__box">
+                                                <div class="objects__img">
+                                                      <img src="images/win.png" alt="">
+                                                </div>
+                                                <div class="objects__number">12 дней</div>
+                                          </div>
+                                    </div>
+                              </div>
+                               <div class="objects__item">
+                                    <img src="images/object.png" alt="" class="objects__image">
+                                    <div class="objects__subtitle">ЖК «Покровский»</div>
+                                    <div class="objects__text">
+                                          Тут описание объекта, выполненные задачи, предоставленная техника, объемы бетона итд
+                                    </div>
+                                    <div class="objects__info">
+                                          <div class="objects__box">
+                                                <div class="objects__img">
+                                                      <img src="images/measuring-cup.png" alt="">
+                                                </div>
+                                                <div class="objects__number">120 м<sup class="objects__num">3</sup></div>
+                                          </div>
+                                          <div class="objects__box">
+                                                <div class="objects__img">
+                                                      <img src="images/win.png" alt="">
+                                                </div>
+                                                <div class="objects__number">12 дней</div>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </section>
+            <section class="partners">
+                  <div class="container">
+                        <h1 class="title partners__title title--white">Наши партнеры</h1>
+                        <div class="partners__wrap">
+                              <div class="partners__slider">
+                                    <div class="partners__item">
+                                          <img src="images/advocare.png" alt="" class="partners__image">
+                                    </div>
+                                    <div class="partners__item">
+                                          <img src="images/awsopsworks.png" alt="" class="partners__image">
+                                    </div>
+                                    <div class="partners__item">
+                                          <img src="images/boinc.png" alt="" class="partners__image">
+                                    </div>
+                                    <div class="partners__item">
+                                          <img src="images/finastra.png" alt="" class="partners__image">
+                                    </div>
+                                    <div class="partners__item">
+                                          <img src="images/cerner.png" alt="" class="partners__image">
+                                    </div>
+                                    <div class="partners__item">
+                                          <img src="images/sage-accounting.png" alt="" class="partners__image">
+                                    </div>
+                                    <div class="partners__item">
+                                          <img src="images/awsopsworks.png" alt="" class="partners__image">
+                                    </div>
+                                    <div class="partners__item">
+                                          <img src="images/advocare.png" alt="" class="partners__image">
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </section>
+            <section class="team">
+                  <div class="container">
+                        <h2 class="team__title title title--orange">Наша команда</h2>
+                        <div class="team__wrap">
+                              <div class="team__item team-block">
+                                    <img src="images/team-image.png" alt="" class="team-block__image">
+                                    <div class="team-block__title">Татьяна</div>
+                                    <div class="team-block__position">менеджер</div>
+                                    <p class="team-block__text">Объемный ковш позволяет зачерпывать большое количество грунта, а двигатель дает возможность грузить и перемещать предметы</p>
+                              </div>
+                              <div class="team__item team-block">
+                                    <img src="images/team-image2.png" alt="" class="team-block__image">
+                                    <div class="team-block__title">Александра</div>
+                                    <div class="team-block__position">менеджер</div>
+                                    <p class="team-block__text">Объемный ковш позволяет зачерпывать большое количество грунта, а двигатель дает возможность грузить и перемещать предметы</p>
+                              </div>
+                              <div class="team__item team-block">
+                                    <img src="images/team-image3.png" alt="" class="team-block__image">
+                                    <div class="team-block__title">Варвара</div>
+                                    <div class="team-block__position">менеджер</div>
+                                    <p class="team-block__text">Объемный ковш позволяет зачерпывать большое количество грунта, а двигатель дает возможность грузить и перемещать предметы</p>
+                              </div>
+                        </div>
+                        <div class="team__box">
+                              <div class="team__btn btn">Оставить заявку</div>
+                        </div>
+                  </div>
+            </section>
+            <section class="why">
+                  <div class="container">
+                        <h2 class="why__title title title--orange">Как все происходит?</h2>
+                        <div class="why__wrap">
+                              <div class="why__item item">
+                                    <div class="item__image-wrap">
+                                          <img src="images/why.png" alt="" class="item__image">
+                                          <div class="item__number">1</div>
+                                    </div>
+<!--                                     <a class="item__title">Заказываете</a> -->
+                              </div>
+                              <div class="why__item item">
+                                    <div class="item__image-wrap">
+                                          <img src="images/why-2.png" alt="" class="item__image">
+                                          <div class="item__number">2</div>
+                                    </div>
+                                    <a class="item__title">Рассчет стоимости</a>
+                              </div>
+                              <div class="why__item item">
+                                    <div class="item__image-wrap">
+                                          <img src="images/why-3.png" alt="" class="item__image">
+                                          <div class="item__number">3</div>
+                                    </div>
+                                    <a class="item__title">Оплата работы</a>
+                              </div>
+                              <div class="why__item item">
+                                    <div class="item__image-wrap">
+                                          <img src="images/why-4.png" alt="" class="item__image">
+                                          <div class="item__number">4</div>
+                                    </div>
+                                    <a class="item__title">Оказание услуги</a>
+                              </div>
+                        </div>
+                  </div>
+            </section>
+            <section class="additionally" id="additionally">
+                  <div class="container">
+                        <h1 class="additionally__title title title--orange">Дополнительно</h1>
+                        <div class="additionally__wrap">
+                              <div class="additionally__block add-block">
+                                    <div class="add-block__image-wrap">
+                                          <img src="images/car.png" alt="" class="add-block__image">
+                                    </div>
+                                    <h2 class="additionally__subtitle">Услуги манипулятора</h2>
+                                    <p class="additionally__text">
+                                          Многие рабочие процессы включают в себя погрузку и разгрузку. Для выполнения этих задач, самой подходящей техникой является кран-манипулятор.
+                                    </p>
+                                    <a href="#" class="additionally__button btn">Подробнее</a>
+                              </div>
+                              <div class="additionally__block add-block">
+                                    <div class="add-block__image-wrap">
+                                          <img src="images/car2.png" alt="" class="add-block__image">
+                                    </div>
+                                    <h2 class="additionally__subtitle">Услуги манипулятора</h2>
+                                    <p class="additionally__text">
+                                          Многие рабочие процессы включают в себя погрузку и разгрузку. Для выполнения этих задач, самой подходящей техникой является кран-манипулятор.
+                                    </p>
+                                    <a href="#" class="additionally__button btn btn-yellow">Подробнее</a>
+                              </div>
+                        </div>
+                  </div>
+            </section>
+      </main>
+      <footer id="contacts" class="footer">
+            <div class="container">
+                  <div class="footer__wrap">
+                        <div class="footer__left">
+                              <div class="footer__logo logo">
+                                    <a href="/" class="logo__link">
+                                          <img src="images/footer-logo.png" alt="">
+                                    </a>
+                              </div>
+                              <div class="info-contact footer__contact">
+                                    <div class="info-contact__block">
+                                          <img src="images/map.png" alt="" class="info-contact__image">
+                                          <div class="info-contact__desc">Киев, ул. Новоконстантиновская 1-В</div>
+                                    </div>
+                                    <div class="info-contact__block">
+                                          <img src="images/contact.png" alt="" class="info-contact__image">
+                                          <a href="tel:+38 (096) 151-77-77" class="info-contact__desc">+38 (096) 151-77-77<span class="info-contect__free info-contact__free--color"> (отдел продаж)</span></a>
+                                    </div>
+                                    <div class="info-contact__block">
+                                          <img src="images/call.png" alt="" class="info-contact__image">
+                                          <a href="tel:+38 (067) 964-27-80" class="info-contact__desc">+38 (067) 964-27-80</a>
+                                    </div>
+                                    <div class="info-contact__block">
+                                          <img src="images/call.png" alt="" class="info-contact__image">
+                                          <a href="tel:+38 (093) 011-12-76" class="info-contact__desc">+38 (093) 011-12-76</a>
+                                    </div>
+                                    <div class="info-contact__block">
+                                          <img src="images/mail.png" alt="" class="info-contact__image">
+                                          <a href="mailto:progres-company@ukr.net" class="info-contact__desc info-contact__desc--yellow">progres-company@ukr.net</a>
+                                    </div>
+                                    <div class="info-contact__block">
+                                          <a class="info-contact__link btn btn-yellow" onclick="$('#exampleModal').arcticmodal()">Оформить зяавку</a>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="footer__right">
+                              <div class="footer__text">
+                                    Напишите нам, наши менеджеры<br> свяжутся с Вами в ближайшее время!
+                              </div>
+                              <form class="footer__form form-work form-phone" id="form3" method="POST" novalidate="novalidate">
+                                    <div class="form-work__block form-work__block--margin">
+                                          <label class="form-work__label form-work__label--white">Ваше имя*</label>
+                                          <input type="text" name="name2" class="form-work__input form-work__input--full" placeholder="Иванов Иван Сергеевич">
+                                    </div>
+                                    <div class="form-work__wrap">
+                                          <div class="form-work__block form-work__block--width">
+                                                <label class="form-work__label form-work__label--white">Номер телефона*</label>
+                                                <input type="text" name="number2" class="form-work__input mask" placeholder="+380 -- --- -- --">
+                                          </div>
+                                          <div class="form-work__block form-work__block--width">
+                                                <label class="form-work__label form-work__label--white">E-mail*</label>
+                                                <input type="text" name="email2" class="form-work__input form-work__input--width" placeholder="yourmail@mailserver.com">
+                                          </div>
+                                    </div>
+                                    <div class="form-work__block form-work__block--text-area">
+                                          <label class="form-work__label form-work__label--white">Ваще сообщение*</label>
+                                          <textarea class="form-work__textarea" name="textarea"></textarea>
+                                    </div>
+                                    <input type="hidden" name="formData" value="Заявка">
+                                    <input type="submit" class="form-work__button btn" value="Отправить">
+                              </form>
+                        </div>
+                  </div>
+            </div>
+            <div class="footer__copyright">
+                  © 2017-2019   betonno
+            </div>
+      </footer>
+      <div style="display: none;">
+            <div class="order-modal mail-modal" id="arcticModal">
+                  <div class="order-modal__text">
+                        Спасибо за ваше обращение! Мы свяжемся с Вами в кратчайшее время.
+                  </div>
+            </div>
+      </div>
+</body>
+</html>
