@@ -1501,6 +1501,10 @@ section {
 	margin: 50px 0 0;
 }
 
+.why {
+	background-color: #333940;
+}
+
 .why__wrap {
 	display: -webkit-flex;
 	display: -moz-flex;
