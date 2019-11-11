@@ -40,6 +40,12 @@ $(document).ready(function(){
 			slidesToShow: 7,
 			responsive: [
 			{
+				breakpoint: 1170,
+				settings: {
+					slidesToShow: 2,
+				}
+			},
+			{
 				breakpoint: 992,
 				settings: {
 					slidesToShow: 2,
